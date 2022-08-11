@@ -19,6 +19,8 @@ st.session_state.campaign = option3
 
 st.text_input("What is the content name", key="ad_id")
 
+st.markdown("### Use this link for your ad")
+st.markdown("##### please copy it")
 
 st.write(f'{st.session_state.ogurl}?utm_source={st.session_state.source}&utm_medium={st.session_state.medium}&utm_campaign={st.session_state.campaign}&utm_content={st.session_state.ad_id}')
 
