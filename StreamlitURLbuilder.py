@@ -2,7 +2,6 @@
 
 import pandas as pd
 import streamlit as st
-import xsel
 import pyperclip
 
 st.markdown("# The Centr - Add UTMs to your URL 🎈")
