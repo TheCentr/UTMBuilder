@@ -6,7 +6,7 @@ import pyperclip
 
 st.markdown("# The Centr - Add UTMs to your URL 🎈")
 
-st.text_input("Enter the original (naked) URL", key="ogurl", placeholder='https://thecentr.com/teamsourcing')
+st.text_input("Enter the original (naked) URL", key="ogurl", placeholder='For example: https://thecentr.com/teamsourcing', value='https://thecentr.com/teamsourcing')
 
 option = st.selectbox('Please select a source', ('facebook', 'youtube', 'linkedin', 'instagram'))
 st.session_state.source = option
