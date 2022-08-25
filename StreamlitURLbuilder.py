@@ -8,6 +8,7 @@ st.markdown("# The Centr - Add UTMs to your URL 🎈")
 
 if st.checkbox('I am here to create my personal Omni-Support URL'):
     #st.text_input("Enter the original (naked) URL", key="ogurl", placeholder='For example: https://thecentr.com/teamsourcing', value='https://thecentr.com/teamsourcing')
+    st.session_state.ogurl = 'https://thecentr.com/teamsourcing'
 
     #option = st.selectbox('Please select a source', ('facebook', 'youtube', 'linkedin', 'instagram', 'direct'))
     st.session_state.source = 'direct'
