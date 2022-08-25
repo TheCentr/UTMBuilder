@@ -11,7 +11,7 @@ if st.checkbox('I am here to create my personal Omni-Support URL'):
     st.session_state.ogurl = 'https://thecentr.com/teamsourcing'
 
     #option = st.selectbox('Please select a source', ('facebook', 'youtube', 'linkedin', 'instagram', 'directsocialmessage'))
-    st.session_state.source = 'direct'
+    st.session_state.source = 'directsocialmessage'
 
     #option2 = st.selectbox('Please select a medium', ('cpc', 'organic', 'banner', 'email', 'socialmessage'))
     #st.session_state.medium = 'socialmessage'
