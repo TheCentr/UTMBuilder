@@ -12,10 +12,10 @@ if st.checkbox('I am here to create my personal Omni-Support URL'):
     #option = st.selectbox('Please select a source', ('facebook', 'youtube', 'linkedin', 'instagram', 'direct'))
     st.session_state.source = 'direct'
 
-    option2 = st.selectbox('Please select a medium', ('cpc', 'organic', 'banner', 'email', 'socialmessage'))
+    #option2 = st.selectbox('Please select a medium', ('cpc', 'organic', 'banner', 'email', 'socialmessage'))
     st.session_state.medium = 'socialmessage'
 
-    option3 = st.selectbox('Please select a campaign', ('teamsourcing', 'other'))
+    #option3 = st.selectbox('Please select a campaign', ('teamsourcing', 'other'))
     st.session_state.campaign = 'teamsourcing'
 
     st.text_input("What is your username", key="user", placeholder='For example: cwatson')
