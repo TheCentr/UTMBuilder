@@ -39,10 +39,10 @@ else:
     st.warning('Click the checkbox if you are here from omni-support')
     st.text_input("Enter the original (naked) URL", key="ogurl", placeholder='For example: https://thecentr.com/teamsourcing', value='https://thecentr.com/teamsourcing')
 
-    option = st.selectbox('Please select a source', ('facebook', 'youtube', 'linkedin', 'instagram', 'direct'))
+    option = st.selectbox('Please select a source', ('facebook', 'youtube', 'linkedin', 'instagram'))
     st.session_state.source = option
 
-    option2 = st.selectbox('Please select a medium', ('cpc', 'organic', 'banner', 'email', 'socialmessage'))
+    option2 = st.selectbox('Please select a medium', ('cpc', 'organic', 'banner', 'email'))
     st.session_state.medium = option2
 
     option3 = st.selectbox('Please select a campaign', ('teamsourcing', 'other'))
